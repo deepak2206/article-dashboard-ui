@@ -1,12 +1,74 @@
-# React + Vite
+Article Dashboard UI – React + ShadCN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, search-and-sort enabled dashboard UI built with **React**, **Vite**, and **shadcn/ui**. This project replicates a modern content management interface with sidebar navigation, dynamic article table, search input, and category tabs.
 
-Currently, two official plugins are available:
+ Feature
+Fully responsive layout  
+Sidebar with collapsible article section and icons  
+Article list with search and sorting (Title, Keyword, Words)  
+ShadCN components (`Tabs`, `Table`, `Input`, `Button`, `Sidebar`)  
+Custom WordPress publish icon with dropdown arrow  
+Modular file structure and clean code  
+Styled using TailwindCSS 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Structure
+src/
+├── components/
+│ ├── Sidebar.jsx
+│ ├── CustomDashboard.jsx
+│ └── CustomTable.jsx
+├── pages/
+│ └── Dashboard.jsx
+├── routes/
+│ └── AppRoutes.jsx
+├── assets/
+│ └── wordpress.png
+├── App.jsx
+├── main.jsx
+└── index.css
 
-## Expanding the ESLint configuration
+## 🛠️ Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone this repo
+git clone https://github.com/your-username/article-dashboard-ui.git
+cd article-dashboard-ui
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+Dependencies
+React
+
+Vite
+
+shadcn/ui
+
+Tailwind CSS
+
+Lucide React Icons
+
+
+Tasks Implemented
+ Sidebar with dropdown section and icons
+
+ Dashboard header with tabs
+
+ Search input that filters articles
+
+ Sortable table headers
+
+ WordPress-style publish icon with dropdown
+
+ Responsive layout
+
+
+
+🧠 Author
+👤 Deepak Suthar
+📧 suthardeepak658@gmail.com
+🔗 www.linkedin.com/deepak-suthar-106a4924b
+
